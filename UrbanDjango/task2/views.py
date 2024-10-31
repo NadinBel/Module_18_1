@@ -7,6 +7,7 @@ def index_main(request):
 
 def index_func(request):
     return render(request, 'index_func.html')
+
 class IndexClass(TemplateView):
     template_name = 'index_class.html'
 
