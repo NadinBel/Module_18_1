@@ -17,7 +17,7 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import path
-from task3.views import index, store, basket
+from task4.views import index, store, basket
 from django.views.generic import TemplateView
 
 
